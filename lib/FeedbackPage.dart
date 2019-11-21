@@ -80,7 +80,7 @@ class _FeedbackPageState extends State<FeedbackPage> {
           ),
           child: Center(
             child: FractionallySizedBox(
-              widthFactor: 0.5,
+              widthFactor: 0.95,
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(4),
