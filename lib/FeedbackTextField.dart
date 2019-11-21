@@ -6,7 +6,7 @@ class FeedbackTextField extends StatelessWidget {
     @required this.onChanged,
     this.hintText,
     this.showCounter = false,
-    this.height = 40,
+    this.height = 40.0,
     this.maxLength,
     this.maxLines = 1,
   });
@@ -34,7 +34,10 @@ class FeedbackTextField extends StatelessWidget {
             hintText: hintText,
             contentPadding: EdgeInsets.only(left: 16, top: 22),
             fillColor: Colors.white,
-            counterStyle: TextStyle(height: 0),
+            counterStyle: TextStyle(
+              height: 0,
+              color: Colors.transparent,
+            ),
             filled: true,
             border: OutlineInputBorder(
               borderSide: BorderSide(
